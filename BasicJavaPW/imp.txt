@@ -1,1 +1,2 @@
-Basic java PW
+Model 7
+Lecture : Main method in Java
