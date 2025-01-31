@@ -1,4 +1,4 @@
-/* static value ko call ke samay Object ki jarurat nahi hoti hai 
+/* static value ko call ke samay Object ki jarurat nahi hoti hai (but static method also call with or without object) 
  * jabki non static methods ko call ke samay object ki jarurat hoti hai
  */
 
