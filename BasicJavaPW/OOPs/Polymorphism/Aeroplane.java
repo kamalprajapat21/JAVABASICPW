@@ -1,15 +1,30 @@
 ////POLYMORPHISM ------> 
 
 
-class Aeroplane1{
-   public void fly(){
-        System.out.println("Plane is Flying");
-    }
+// class Aeroplane1{
+//    public void fly()
+//    {
+//         System.out.println("Plane is Flying");
+//     }
 
-    public void takeof(){
-        System.out.println("Plane is takeOf");
-    }
-} 
+//     public void takeof(){
+//         System.out.println("Plane is takeOf");
+//     }
+// } 
+
+
+/////ABSTRACT concept (Abstract class ka object java me nahi bana sakte hai )
+abstract class Aeroplane1{
+   abstract public void fly();
+ //    {
+ //         System.out.println("Plane is Flying");
+ //     }
+ 
+     abstract public void takeof();
+     // {
+     //     System.out.println("Plane is takeOf");
+     // }
+ } 
 
 class Cargoplane extends Aeroplane1 {
    public void fly(){
