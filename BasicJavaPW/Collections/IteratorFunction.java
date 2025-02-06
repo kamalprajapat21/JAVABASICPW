@@ -14,6 +14,14 @@ class IteratorFunction{
         while(itr.hasNext()){
             System.out.println(itr.next());
         }
+
+
+        /*ListIterator  Only use in ArrayList or LinkeList it print the Reverse Order*/
+
+       ListIterator Litr = ls.listIterator(ls.size());
+        while(Litr.hasPrevious()){
+            System.out.println(Litr.previous());
+        }
         System.out.println("Without Ierator");
         System.out.println(ls);
     }
